@@ -11,9 +11,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <WelcomeBackground>
-        <Header chipsandsalsa={'large'}
-                bColor={'white'}>Hello World.</Header>
-        <p>Hi, my name is Katrina! I'm a full stack web developer.</p>
+        <Header chipsandsalsa={'medium'} align={'center'}> HELLO. My name is Katrina and I am a full-stack web developer.</Header> Header>
       </WelcomeBackground>
       </div>
     );
