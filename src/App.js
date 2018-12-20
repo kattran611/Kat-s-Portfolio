@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import {WelcomeBackground} from './components/Background';
 import Header from './StyledComponents/Header';
+import Content from './components/Content';
 
 class App extends Component {
   render() {
@@ -11,8 +12,9 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <WelcomeBackground>
+        <Content />
         <Header chipsandsalsa={'medium'} align={'center'}> HELLO. My name is Katrina and I am a full-stack web developer.</Header> Header>
-      </WelcomeBackground>
+        </WelcomeBackground>
       </div>
     );
   }
