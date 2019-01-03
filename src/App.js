@@ -13,7 +13,7 @@ class App extends Component {
         <NavBar />
         <WelcomeBackground>
         <Content />
-        <Header chipsandsalsa={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer.</Header> Header>
+        <Header size={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer. When I'm not coding, I enjoy traveling, trying new foods, ing with good company, and skiing.</Header> Header>
         </WelcomeBackground>
       </div>
     );

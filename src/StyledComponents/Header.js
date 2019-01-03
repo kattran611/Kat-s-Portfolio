@@ -2,8 +2,8 @@ import styled from 'styled-components'
 //This is just an example of how to write styled components. Please
 // Update and delete this comment
 
-const fontSize = (chipsandsalsa) => {
-  switch(chipsandsalsa) {
+const fontSize = (size) => {
+  switch(size) {
     case 'huge':
       return '6rem'
     case 'large':
@@ -29,8 +29,8 @@ const fontSize = (chipsandsalsa) => {
   }
 }
 
-const color = (color) => {
-  switch(color){
+const color = (hue) => {
+  switch(hue){
     case 'white':
       return '#fff !important'
     case 'orange':
