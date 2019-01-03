@@ -13,7 +13,7 @@ class App extends Component {
         <NavBar />
         <WelcomeBackground>
         <Content />
-        <Header chipsandsalsa={'medium'} align={'center'}> HELLO. My name is Katrina and I am a full-stack web developer.</Header> Header>
+        <Header chipsandsalsa={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer.</Header> Header>
         </WelcomeBackground>
       </div>
     );

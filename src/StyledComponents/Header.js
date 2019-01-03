@@ -48,8 +48,8 @@ const subHeader = (sub=false) => {
   }  
 }
 
-const align = (align) => {
-  switch(align){
+const align = (adjust) => {
+  switch(adjust){
     case 'left':
       return 'left'
     case 'right':
