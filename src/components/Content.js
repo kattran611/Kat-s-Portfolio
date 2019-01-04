@@ -2,6 +2,6 @@ import React from 'react'
 import { Image } from 'semantic-ui-react'
 import cabo from '../IMG/cabo.jpg'
 
-const ImageExampleImage = () => <Image src={cabo} size='medium' />
+const PersonalImage = () => <Image src={cabo} size='medium' rounded/>
 
-export default ImageExampleImage
+export default PersonalImage;

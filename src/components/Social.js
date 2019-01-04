@@ -4,7 +4,7 @@ import { Button, Icon } from 'semantic-ui-react'
 const SocialButton = () => (
   <div>
     <Button color='facebook'>
-      <Icon name='facebook' />  Facebook
+      <Icon name='facebook' /> Facebook
     </Button>
     <Button color='linkedin'>
       <Icon name='linkedin' /> LinkedIn
