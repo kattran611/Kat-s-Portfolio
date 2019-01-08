@@ -6,6 +6,7 @@ import {WelcomeBackground} from './components/Background';
 import Header from './StyledComponents/Header';
 import Content from './components/Content';
 import Social from './components/Social';
+import Button from './components/Button'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Content />
 		  <Header size={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer. When I'm not coding, I enjoy traveling, trying new foods, being with good company, and learning to ski.</Header> Header>
         </WelcomeBackground>
+		  <Button />
         <Social />
       </div>
     );
