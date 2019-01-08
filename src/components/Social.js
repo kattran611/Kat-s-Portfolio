@@ -12,6 +12,9 @@ const SocialButton = () => (
     <Button color='instagram' href='https://www.instagram.com/_kattran/?hl=en'>
       <Icon name='instagram' /> Instagram
     </Button>
+	 <Button color='GitHub' href='https://github.com/kattran611'>
+		 <Icon name='GitHub' /> GitHub
+	 </Button>
   </div>
 )
 

@@ -14,7 +14,7 @@ class App extends Component {
         <NavBar />
         <WelcomeBackground>
         <Content />
-		  <Header size={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer. When I'm not coding, I enjoy traveling, trying new foods, ing with good company, and skiing.</Header> Header>
+		  <Header size={'medium'} adjust={'center'}> HELLO. My name is Katrina and I am a full-stack web developer. When I'm not coding, I enjoy traveling, trying new foods, being with good company, and learning to ski.</Header> Header>
         </WelcomeBackground>
         <Social />
       </div>
