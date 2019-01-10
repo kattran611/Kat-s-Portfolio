@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Icon } from 'semantic-ui-react'
 
 const SocialButton = () => (
-  <div>
+  <span>
     <Button color='facebook' href='https://www.facebook.com/kat.c.tran'>
       <Icon name='facebook' /> Facebook
     </Button>
@@ -15,7 +15,7 @@ const SocialButton = () => (
 	 <Button color='GitHub' href='https://github.com/kattran611'>
 		 <Icon name='GitHub' /> GitHub
 	 </Button>
-  </div>
+ </span>
 )
 
-export default SocialButton
+export default SocialButton;
