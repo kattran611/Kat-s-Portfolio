@@ -64,8 +64,8 @@ const align = (adjust) => {
 
 export default styled.h1`
   margin: ${props => subHeader(props.sub)};
-  text-align: ${props => align(props.align)};
-  font-size: ${props => fontSize(props.chipsandsalsa)};
+  text-align: ${props => align(props.adjust)};
+  font-size: ${props => fontSize(props.size)};
   font-family: 'Roboto Mono', monospace;
-  color: ${props => color(props.bColor)};
+  color: ${props => color(props.hue)};
 `
