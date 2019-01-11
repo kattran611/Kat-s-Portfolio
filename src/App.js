@@ -6,7 +6,8 @@ import {WelcomeBackground} from './components/Background';
 import Header from './StyledComponents/Header';
 import Content from './components/Content';
 import Social from './components/Social';
-import Button from './components/Button'
+import Button from './components/Button';
+
 
 class App extends Component {
   render() {
@@ -15,12 +16,12 @@ class App extends Component {
         <NavBar />
         <WelcomeBackground>
         <Content />
-		  <Header size={'huge'} adjust={'top'}>Hello.</Header>
-		  <Header size={'small'} adjust={'center'}>My name is Katrina and I'm a full stack web developer from Salt Lake City, Utah.</Header>
+		  <Header size={'large'} align={'center'}>Hi, my name is Katrina Tran.</Header>
+		  <Header size={'small'} align={'center'}>I am a full stack web developer from Salt Lake City, Utah. </Header>
 		  <Button />
         <Social/>
 		  </WelcomeBackground>
-      </div>
+	  </div>
     );
   }
 }
