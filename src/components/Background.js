@@ -5,6 +5,6 @@ export const WelcomeBackground = styled.div`
   background-image: url(${Background});
   height: 100vh
   overflow: auto
-  display: flex
+  display: grid
   justify-content: center
   align-items: center`

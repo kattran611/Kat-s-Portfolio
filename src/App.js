@@ -16,11 +16,12 @@ class App extends Component {
         <NavBar />
         <WelcomeBackground>
         <Content />
-		  <Header size={'large'} align={'center'}>Hi, my name is Katrina Tran.</Header>
-		  <Header size={'small'} align={'center'}>I am a full stack web developer from Salt Lake City, Utah. </Header>
+		  <Header size={'medium'} align={'center'}>Hi, my name is Katrina Tran.</Header>
+		  <Header size={'medium'} align={'center'}>I am a full stack web developer from Salt Lake City, Utah. </Header>
 		  <Button />
-        <Social/>
+		  <Social />
 		  </WelcomeBackground>
+
 	  </div>
     );
   }
