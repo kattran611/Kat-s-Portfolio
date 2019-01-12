@@ -3,7 +3,7 @@ import { Image, Segment } from 'semantic-ui-react'
 import cabo from '../IMG/cabo.jpg'
 
 
-const PersonalImage = () => <Image centered src={cabo} size='medium' rounded />
+const PersonalImage = () => <Image centered src={cabo} size='large' circular />
 
 
 export default PersonalImage;
