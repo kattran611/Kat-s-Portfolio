@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, Segment } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import cabo from '../IMG/cabo.jpg'
 
 
