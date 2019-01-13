@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Background from '../IMG/Earl-Gray.png'
+import Background from '../IMG/design.png'
 
 export const WelcomeBackground = styled.div`
   background-image: url(${Background});

@@ -31,12 +31,12 @@ const fontSize = (size) => {
 
 const color = (hue) => {
   switch(hue){
-    case 'white':
-      return '#fff !important'
+    case 'black':
+      return '#000b06 !important'
     case 'orange':
      return '#ff5722'
     default:
-      return '#fff'
+      return '#000b06'
   }
 }
 
