@@ -1,7 +1,7 @@
 import React from 'react'
 import { Item } from 'semantic-ui-react'
 
-const ItemExampleHeaders = () => (
+const ItemProject = () => (
   <Item.Group>
     <Item>
       <Item.Image size='small' src='https://react.semantic-ui.com/images/wireframe/image.png' />
@@ -24,4 +24,4 @@ const ItemExampleHeaders = () => (
   </Item.Group>
 )
 
-export default ItemExampleHeaders
+export default ItemProject;
