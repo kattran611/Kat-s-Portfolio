@@ -3,8 +3,8 @@ import Background from '../IMG/design.png'
 
 export const WelcomeBackground = styled.div`
   background-image: url(${Background});
-  height: 100vh
-  overflow: auto
+  height: auto
+  overflow: visible
   display: flex
   justify-content: center
   align-items: center`

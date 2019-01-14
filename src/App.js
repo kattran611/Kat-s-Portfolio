@@ -8,6 +8,7 @@ import Content from './components/Content';
 import Social from './components/Social';
 import Button from './components/Button';
 import {Container} from 'semantic-ui-react';
+import Project from './components/Projects';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
 		  <Header size={'medium'} adjust={'center'}>Hi, my name is Katrina Tran.</Header>
 		  <Header size={'medium'} adjust={'center'}>I am a Junior full stack web developer from Salt Lake City, Utah with a passion for learning. </Header>
 		  <Button />
+		  <Project />
 		  <Header>Contact Me</Header>
 		  <Social />
 	  	</Container>
