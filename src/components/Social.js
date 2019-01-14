@@ -3,6 +3,7 @@ import { Button, Icon } from 'semantic-ui-react'
 
 const SocialButton = () => (
   <span>
+	 <Icon name='mail'/> kat.c.tran@gmail.com
     <Button color='facebook' target='_blank' href='https://www.facebook.com/kat.c.tran'>
       <Icon name='facebook' /> Facebook
     </Button>
