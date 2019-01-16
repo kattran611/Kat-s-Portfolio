@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 
 const SocialButton = () => (
   <span>
@@ -16,11 +16,12 @@ const SocialButton = () => (
 	<Icon name='instagram' /> Instagram
 	 </Button> */}
 	 {/* <Button color='GitHub' target='_blank' href='https://github.com/kattran611'> */}
-
+<a href = "https://github.com/kattran611" target="_blank" rel="noopener noreferrer">
 	<Icon name = "github"
-		onClick = "http://github.com/kattran611"
 		size = 'huge'
+		link
 	/>
+</a>
 
  </span>
 )
