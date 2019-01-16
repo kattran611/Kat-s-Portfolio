@@ -53,9 +53,10 @@ export const ProfileHeader = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 10px solid;
 
 `
 
 export const ProjectImage = styled(Item.Image)`
-	border: 5px solid pink;
+	border: 5px solid #00f9ff;
 `
