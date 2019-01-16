@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'semantic-ui-react'
-import cabo from '../IMG/cabo.jpg'
+import cabo from '../IMG/cabo.png'
 import {Img, ProfileHeader} from './Background'
 
 

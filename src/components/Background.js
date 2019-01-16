@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components'
 import Background from '../IMG/design.png'
+import { Item } from 'semantic-ui-react'
+
 
 const sizes = {
   giant: 1824,
@@ -52,4 +54,8 @@ export const ProfileHeader = styled.div`
 	justify-content: center;
 	align-items: center;
 
+`
+
+export const ProjectImage = styled(Item.Image)`
+	border: 5px solid pink;
 `
