@@ -1,6 +1,25 @@
 import styled from 'styled-components'
 import Background from '../IMG/design.png'
 
+const sizes = {
+  giant: 1824,
+  desktop: 1117,
+  tablet: 768,
+  phone: 376,
+}
+
+const media = Object.keys(sizes).reduce((accumulator, label) => {
+  // use em in breakpoints to work properly cross-browser and support users
+  // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
+  // const emSize = sizes[label] / 16
+  accumulator[label] = (...args) => css`
+    @media (max-width: ${sizes[label]}px) {
+      ${css(...args)};
+    }
+  `
+  return accumulator
+}, {})
+
 const cardShadow = "inset 3px 4px 5px #000, 5px 6px 7px rgba(0, 0, 0, .3), inset 1px 2px 3px #fff"
 const cardShadow2 = "inset 3px 4px 5px rgba(45, 45, 45, .2)"
 
@@ -22,7 +41,12 @@ export const Img = styled.img`
 	border: 6px solid #00f9ff;
 	box-shadow: ${cardShadow}
 
+	${media.phone`
+	    width: 300px !important;
+		 height: 300px !important;
 
+	    `
+	  }
 
 
 `
