@@ -20,7 +20,7 @@ class App extends Component {
 		<Container>
         <Content />
 		  <Header size={'medium'} adjust={'center'}>Hi, my name is Katrina Tran.</Header>
-		  <Header size={'medium'} adjust={'center'}>I am a Junior full stack web developer from Salt Lake City, Utah with a passion for learning. </Header>
+		  <Header size={'small'} adjust={'center'}>I am a Junior full stack web developer from Salt Lake City, Utah with a passion for learning. </Header>
 		  <Button />
 		  <Project />
 		  <Header size={'medium'} adjust={'center'}>Contact Me</Header>
