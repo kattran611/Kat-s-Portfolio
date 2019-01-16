@@ -1,28 +1,32 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 
-const SocialButton = () => (
+const SocialIcon = () => (
   <span>
-	 {/* <Icon name='mail'/> kat.c.tran@gmail.com
-    <Button color='facebook' target='_blank' href='https://www.facebook.com/kat.c.tran'>
-      <Icon name='facebook' /> Facebook
-    </Button>
-    <Button color='linkedin' target='_blank' href='https://www.linkedin.com/in/katrinactran/'>
-
-	 <Icon name='linkedin' /> LinkedIn
-    </Button>
-    <Button color='instagram' target='_blank' href='https://www.instagram.com/_kattran/?hl=en'>
-
-	<Icon name='instagram' /> Instagram
-	 </Button> */}
-	 {/* <Button color='GitHub' target='_blank' href='https://github.com/kattran611'> */}
-<a href = "https://github.com/kattran611" target="_blank" rel="noopener noreferrer">
-	<Icon name = "github"
-		size = 'huge'
-		link
-	/>
-</a>
-
+	<a href = "https://github.com/kattran611" target="_blank" rel="noopener noreferrer">
+		<Icon name = "github"
+			size = 'huge'
+			link
+		/>
+	</a>
+	<a href = "https://www.facebook.com/kat.c.tran" target="_blank" rel="noopener noreferrer">
+		<Icon name = "facebook"
+			size = 'huge'
+			link
+		/>
+	</a>
+	<a href= "https://www.linkedin.com/in/katrinactran/" target="_blank" rel="noopener noreferrer">
+		<Icon name = "linkedin"
+			size = "huge"
+			link
+		/>
+	</a>
+	<a href= "https://www.instagram.com/_kattran/?hl=en" target="_blank" rel="noopener noreferrer">
+		<Icon name = "instagram"
+			size = "huge"
+			link
+		/>
+	</a>
  </span>
 )
-export default SocialButton;
+export default SocialIcon;
