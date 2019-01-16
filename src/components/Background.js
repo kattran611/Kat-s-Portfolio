@@ -53,7 +53,7 @@ export const ProfileHeader = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 10px solid ;
+	border: 6px solid rounded;
 	box-shadow: ${cardShadow}
 
 `
