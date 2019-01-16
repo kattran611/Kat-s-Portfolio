@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import Background from '../IMG/design.png'
 
 const sizes = {
@@ -8,7 +8,7 @@ const sizes = {
   phone: 376,
 }
 
-const media = Object.keys(sizes).reduce((accumulator, label) => {
+export const media = Object.keys(sizes).reduce((accumulator, label) => {
   // use em in breakpoints to work properly cross-browser and support users
   // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
   // const emSize = sizes[label] / 16
@@ -34,21 +34,17 @@ export const WelcomeBackground = styled.div`
 
 export const Img = styled.img`
 	margin: 80px auto 20px auto
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%
 	object-fit: cover;
 	border: 6px solid #00f9ff;
 	box-shadow: ${cardShadow}
-
-	${media.phone`
+	${media.tablet`
 	    width: 300px !important;
 		 height: 300px !important;
-
-	    `
-	  }
-
-
+	  `
+	}
 `
 
 export const ProfileHeader = styled.div`
