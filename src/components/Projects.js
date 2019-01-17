@@ -10,7 +10,8 @@ const ItemProject = () => (
     <Item>
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
-        <Item.Header as='a' href="https://dpl-website.herokuapp.com/" target="_blank">DevPoint Labs webpage</Item.Header>
+        <Item.Header as='a' href="https://dpl-website.herokuapp.com/demo" target="_blank">DevPoint Labs webpage</Item.Header>
+		  	<p>Worked in a team at DevPoint Labs creating the school's new website using React for the front-end and Rails for the back-end</p>
       </Item.Content>
     </Item>
 
