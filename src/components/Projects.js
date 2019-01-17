@@ -12,14 +12,17 @@ const ItemProject = () => (
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
         <Item.Header as='a' href="https://dpl-website.herokuapp.com/demo" target="_blank">DevPoint Labs webpage</Item.Header>
-		  	<p>Worked in a small team at DevPoint Labs creating the school's new website using React for the front-end and Rails for the back-end</p>
+		  	<p>Worked in a small team at DevPoint Labs creating the school's new website using React for the front-end and Rails for the back-end.</p>
       </Item.Content>
     </Item>
 
     <Item>
       <ProjectImage size='medium' src={rockps} />
       <Item.Content verticalAlign='middle'>
-        <Item.Header as='a' content='Rock, Paper, Scissors' />
+        <Item.Header as='a' href="https://github.com/kattran611/rock_paper_scissors"
+		  	target="_blank"
+			content='Rock, Paper, Scissors' />
+			<p>Worked on the Rock, Paper, Scissors app as a side project using plain Javascript.</p>
       </Item.Content>
     </Item>
 
