@@ -8,15 +8,15 @@ import rockps from '../IMG/rockps.png'
 
 
 const ItemProject = () => (
-  <Item>
+  <Item.Group>
 	  <a href = "projects"></a>
     <Item>
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
         <Item.Header as='a' href="https://dpl-website.herokuapp.com/demo" target="_blank">DevPoint Labs webpage</Item.Header>
-		  	<p>Worked in a small team at DevPoint Labs creating the school's new website using React for the front-end and Rails for the back-end.</p>
+		  	<p>Worked with a small team at DevPoint Labs creating the school's website using React, Rails, Redux, and Stripe.</p>
       </Item.Content>
-	</Item>
+	 </Item>
 
     <Item>
       <ProjectImage size='medium' src={rockps} />
@@ -24,15 +24,15 @@ const ItemProject = () => (
         <Item.Header as='a' href="https://github.com/kattran611/rock_paper_scissors"
 		  	target="_blank"
 			content='Rock, Paper, Scissors' />
-			<p>Worked on the Rock, Paper, Scissors app as a side project using plain Javascript.</p>
+			<p>We all remember playing rock, paper scissors as kids, right? Well, I Created a Rock, Paper, Scissors app that will keep score using plain Javascript. </p>
       </Item.Content>
-    </Item>
+	 </Item>
 
     <Item>
       <ProjectImage size='medium' src='https://react.semantic-ui.com/images/wireframe/image.png' />
       <Item.Content header='Tic Tac Toe' verticalAlign='middle' />
-    </Item>
- </Item>
+	 </Item>
+ </Item.Group>
 )
 
 export default ItemProject;
