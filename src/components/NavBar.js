@@ -12,8 +12,10 @@ export default class NavBar extends Component {
     return (
       <Menu tabular>
         <Menu.Item name='Katrina Tran' active={activeItem === 'KatrinaTran'} onClick={this.handleItemClick} />
+		  	<a href="#projects"></a>
         <Menu.Item name='Projects' active={activeItem === 'projects'} onClick={this.handleItemClick} />
 		  <Menu.Item name='Contact' active={activeItem === 'contact'} onClick={this.handleItemClick} />
+		 
       </Menu>
     )
   }

@@ -68,5 +68,5 @@ export default styled.h1`
   font-size: ${props => fontSize(props.size)};
   font-family: 'Lato', monospace;
   color: ${props => color(props.hue)};
-  
+
 `

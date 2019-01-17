@@ -8,6 +8,7 @@ import rockps from '../IMG/rockps.png'
 
 const ItemProject = () => (
   <Item.Group>
+	  <a href = "projects"></a>
     <Item>
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
@@ -30,7 +31,7 @@ const ItemProject = () => (
       <ProjectImage size='medium' src='https://react.semantic-ui.com/images/wireframe/image.png' />
       <Item.Content header='Tic Tac Toe' verticalAlign='middle' />
     </Item>
-  </Item.Group>
+ </Item.Group>
 )
 
 export default ItemProject;
