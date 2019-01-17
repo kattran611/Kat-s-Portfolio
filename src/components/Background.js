@@ -58,4 +58,10 @@ export const ProfileHeader = styled.div`
 
 export const ProjectImage = styled(Item.Image)`
 	border: 5px solid #00f9ff;
+	box-shadow: ${cardShadow};
+	padding-top: 30px;
+
 `
+// export const ItemGroup = styled(Item.div)`
+// 	padding: 30px;
+// `
