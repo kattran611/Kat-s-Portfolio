@@ -63,6 +63,3 @@ export const ProjectImage = styled(Item.Image)`
 
 
 `
-// export const ItemGroup = styled(Item.div)`
-// 	padding: 30px;
-// `
