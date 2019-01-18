@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Image } from 'semantic-ui-react'
-import cabo from '../IMG/cabo.png'
+import me from '../IMG/me.jpg'
 import {Img, ProfileHeader} from './Background'
 
 
 
-const PersonalImage = () => <ProfileHeader> <Img centered src={cabo} size='small' rounded /></ProfileHeader>
+const PersonalImage = () => <ProfileHeader> <Img centered src={me} size='small' rounded /></ProfileHeader>
 
 
 export default PersonalImage;
