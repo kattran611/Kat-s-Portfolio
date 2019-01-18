@@ -36,6 +36,7 @@ export const WelcomeBackground = styled.div`
   align-items: center`
 
 export const Img = styled.img`
+	margin: 100px auto 50px auto;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%
