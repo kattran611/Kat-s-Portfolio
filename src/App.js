@@ -19,7 +19,7 @@ class App extends Component {
 		<Container>
         <Content />
 		  <Header size={'medium'} adjust={'center'}>Hello, my name is Katrina Tran.</Header>
-		  <Header size={'small'} adjust={'center'}>I am a junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps.  </Header>
+		  <Header size={'small'} adjust={'center'}>I am a junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web applications. I am new to programming and finished a course through DevPoint Labs where I learned JavaScript, React, Ruby, Ruby on Rails, and PostgreSQL. I would love the opportunity to utilize the skills I have learned and work on new projects.   </Header>
 		  <hr />
 			<h1 id="projects" style={{color: '#4a274f'}} size={'medium'} align={'center'}>Projects</h1>
 
