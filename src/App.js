@@ -20,9 +20,9 @@ class App extends Component {
         <Content />
 		  <Header size={'medium'} adjust={'center'}>Hi, my name is Katrina Tran.</Header>
 		  <Header size={'small'} adjust={'center'}>I am a Junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps. </Header>
-		  	<hr />
-			<h1 id="projects" style = {{border: "2px solid #00f9ff", padding:"20px" }} size={'medium'} align={'center'}>Projects</h1>
-			<hr />
+
+			<h1 id="projects" style = {{borderTop: "2px solid", padding:"20px" }} size={'medium'} align={'center'}>Projects</h1>
+			
 		  <Project />
 		  	<hr />
 		  <Header id="contact" size={'medium'} adjust={'center'}>Contact Me</Header>
