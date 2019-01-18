@@ -26,11 +26,6 @@ const ItemProject = () => (
 			<p>We all remember playing rock, paper scissors as kids, right? Well, I Created a Rock, Paper, Scissors app using plain Javascript that will keep score. </p>
       </Item.Content>
 	 </Item>
-
-    <Item>
-      <ProjectImage size='medium' src='https://react.semantic-ui.com/images/wireframe/image.png' />
-      <Item.Content header='Tic Tac Toe' verticalAlign='middle' />
-	 </Item>
  </Item.Group>
 )
 
