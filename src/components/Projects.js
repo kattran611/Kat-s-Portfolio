@@ -23,7 +23,7 @@ const ItemProject = () => (
         <Item.Header as='a' href="https://github.com/kattran611/rock_paper_scissors"
 		  	target="_blank"
 			content='Rock, Paper, Scissors' />
-			<p>We all remember playing rock, paper, scissors as kids, right? Well, I Created a Rock, Paper, Scissors game using plain Javascript that will keep score. </p>
+			<p>We all remember playing Rock, Paper, Scissors as kids, right? Well, I created a Rock, Paper, Scissors game using plain Javascript that will keep score. </p>
       </Item.Content>
 	 </Item>
  </Item.Group>

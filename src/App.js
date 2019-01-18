@@ -19,13 +19,13 @@ class App extends Component {
 		<Container>
         <Content />
 		  <Header size={'medium'} adjust={'center'}>Hello, my name is Katrina Tran.</Header>
-		  <Header size={'small'} adjust={'center'}>I am a junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps. </Header>
-
-			<h1 id="projects" style = {{borderTop: "2px solid", padding:"20px"}} size={'medium'} align={'center'}>Projects</h1>
+		  <Header size={'small'} adjust={'center'}>I am a junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps.  </Header>
+		  <hr />
+			<h1 id="projects" style={{color: '#4a274f'}} size={'medium'} align={'center'}>Projects</h1>
 
 		  <Project />
 		  	<hr />
-		  <Header id="contact" size={'medium'} adjust={'center'}>Contact Me</Header>
+		  <Header id="contact" style={{color: '#4a274f'}} size={'medium'} adjust={'center'}>Contact Me</Header>
 		  		<p align='center'>Feel free to contact me through email or follow me on social media.</p>
 		  <Social />
 		  	<a name="contact"></a>
