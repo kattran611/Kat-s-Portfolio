@@ -18,8 +18,8 @@ class App extends Component {
         <WelcomeBackground id="katrinatran">
 		<Container>
         <Content />
-		  <Header size={'medium'} adjust={'center'}>Hi, my name is Katrina Tran.</Header>
-		  <Header size={'small'} adjust={'center'}>I am a Junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps. </Header>
+		  <Header size={'medium'} adjust={'center'}>Hello, my name is Katrina Tran.</Header>
+		  <Header size={'small'} adjust={'center'}>I am a junior full stack web developer from Salt Lake City, Utah with a passion for learning and desire to build functional web apps. </Header>
 
 			<h1 id="projects" style = {{borderTop: "2px solid", padding:"20px"}} size={'medium'} align={'center'}>Projects</h1>
 
