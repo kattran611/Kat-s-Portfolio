@@ -13,13 +13,7 @@ const theme = {
 }
 
 ReactDOM.render(
-<div>
-  {/* <ThemeProvider theme={theme}> */}
-    <App />
-  {/* </ThemeProvider> */}
-
-</div>,
-
+	<App />,
   document.getElementById('root')
 );
 

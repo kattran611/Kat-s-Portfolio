@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 
+
 export default class NavBar extends Component {
   state = { activeItem: 'bio' }
 
@@ -10,12 +11,10 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu tabular>
-        <Menu.Item name='Katrina Tran' active={activeItem === 'KatrinaTran'} onClick={this.handleItemClick} />
-		  	<a href="#projects"></a>
-        <Menu.Item name='Projects' active={activeItem === 'projects'} onClick={this.handleItemClick} />
-		  <Menu.Item name='Contact' active={activeItem === 'contact'} onClick={this.handleItemClick} />
-		 
+      <Menu fixed={"top"} style={{backgroundColor: "#e4e4e4"}} tabular>
+        <Menu.Item name='Katrina Tran' href = "katrinatran" active={activeItem === 'KatrinaTran'} onClick={this.handleItemClick} />
+        <Menu.Item name='Projects' href = "#projects" active={activeItem === 'projects'} onClick={this.handleItemClick} />
+		  <Menu.Item name='Contact' href = "#contact" active={activeItem === 'contact'} onClick={this.handleItemClick} />
       </Menu>
     )
   }

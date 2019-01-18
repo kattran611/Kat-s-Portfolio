@@ -9,7 +9,6 @@ import rockps from '../IMG/rockps.png'
 
 const ItemProject = () => (
   <Item.Group>
-	  <a href = "projects"></a>
     <Item>
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>

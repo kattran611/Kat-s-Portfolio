@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 import Background from '../IMG/design.png'
-import { Item } from 'semantic-ui-react'
+import { Item, Menu } from 'semantic-ui-react'
+
 
 
 const sizes = {
@@ -59,7 +60,7 @@ export const ProfileHeader = styled.div`
 export const ProjectImage = styled(Item.Image)`
 	border: 5px solid #00f9ff;
 	box-shadow: ${cardShadow};
-	padding-top: 30px;
+
 
 `
 // export const ItemGroup = styled(Item.div)`
