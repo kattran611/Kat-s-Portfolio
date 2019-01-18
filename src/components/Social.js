@@ -3,7 +3,7 @@ import { Icon } from 'semantic-ui-react'
 
 const SocialIcon = () => (
   <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
-	 
+
 	<a href="mailto:kat.c.tran@gmail.com" target="_blank" rel="noopener noreferrer">
 		<Icon name = "mail"
 			size = "huge"
