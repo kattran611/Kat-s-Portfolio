@@ -8,7 +8,7 @@ import rockps from '../IMG/rockps.png'
 
 
 const ItemProject = () => (
-  <Item.Group>
+  <Item.Group style={{padding: "30px"}}>
     <Item>
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
