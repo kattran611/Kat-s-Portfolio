@@ -13,7 +13,7 @@ const ItemProject = () => (
       <ProjectImage size='medium' src={DPLHome} />
       <Item.Content verticalAlign='middle'>
         <Item.Header as='a' href="https://dpl-website.herokuapp.com/demo" target="_blank">DevPoint Labs webpage re-design</Item.Header>
-		  	<p>Worked with a small team at DevPoint Labs creating the school's website using React, Rails, Redux, and Stripe.</p>
+		  	<p style={{fontSize: '16px'}}>Worked with a small team at DevPoint Labs creating the school's website using React, Rails, Redux, and Stripe.</p>
       </Item.Content>
 	 </Item>
 
@@ -23,7 +23,7 @@ const ItemProject = () => (
         <Item.Header as='a' href="https://github.com/kattran611/rock_paper_scissors"
 		  	target="_blank"
 			content='Rock, Paper, Scissors' />
-			<p>We all remember playing Rock, Paper, Scissors as kids, right? Well, I created a Rock, Paper, Scissors game using plain JavaScript that will keep score. </p>
+			<p style={{fontSize: '16px'}}>We all remember playing Rock, Paper, Scissors as kids, right? Well, I created a Rock, Paper, Scissors game using plain JavaScript that will keep score. </p>
       </Item.Content>
 	 </Item>
  </Item.Group>
