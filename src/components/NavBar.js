@@ -12,9 +12,9 @@ export default class NavBar extends Component {
 
     return (
       <Menu fixed={"top"} style={{backgroundColor: "#e4e4e4"}} tabular>
-        <Menu.Item name='Katrina Tran' href = "#katrinatran" active={activeItem === 'KatrinaTran'} onClick={this.handleItemClick} />
-        <Menu.Item name='Projects' href = "#projects" active={activeItem === 'projects'} onClick={this.handleItemClick} />
-		  <Menu.Item name='Contact' href = "#contact" active={activeItem === 'contact'} onClick={this.handleItemClick} />
+        <Menu.Item style={{color: '#4a274f'}} name='Katrina Tran' href = "#katrinatran" active={activeItem === 'KatrinaTran'} onClick={this.handleItemClick} />
+        <Menu.Item style={{color:'#4a274f'}} name='Projects' href = "#projects" active={activeItem === 'projects'} onClick={this.handleItemClick} />
+		  <Menu.Item style={{color:'#4a274f'}} name='Contact' href = "#contact" active={activeItem === 'contact'} onClick={this.handleItemClick} />
       </Menu>
     )
   }
