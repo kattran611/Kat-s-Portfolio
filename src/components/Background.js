@@ -37,8 +37,8 @@ export const WelcomeBackground = styled.div`
 
 export const Img = styled.img`
 	margin: 100px auto 50px auto;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%
 	object-fit: cover;
 	border: 6px solid #00f9ff;
